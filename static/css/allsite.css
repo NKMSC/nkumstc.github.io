@@ -6,3 +6,7 @@ footer li:before{
 footer li:first-child:before{
 content: ' ';
 }
+/*brand高度*/
+.navbar-brand{
+	padding-top: 4.5px;
+}
