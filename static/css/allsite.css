@@ -1,0 +1,12 @@
+/*页脚竖线*/
+footer li:before{
+       margin-right: 0.5em;
+         content: '|';
+     }
+footer li:first-child:before{
+content: ' ';
+}
+/*brand高度*/
+.navbar-brand{
+	padding-top: 4.5px;
+}
