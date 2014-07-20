@@ -10,3 +10,9 @@ content: ' ';
 .navbar-brand{
 	padding-top: 4.5px;
 }
+
+/*导航标题描点偏移*/
+.nav-titile:target{
+	padding-top: 60px;
+	margin-top: -55px;
+}
