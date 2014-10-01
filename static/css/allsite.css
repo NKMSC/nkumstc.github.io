@@ -1,10 +1,21 @@
-/*页脚竖线*/
-footer li:before{
-       margin-right: 0.5em;
-         content: '|';
-     }
-footer li:first-child:before{
-content: ' ';
+@media all and (max-width:800px){
+footer li {
+		display: none;
+	}
+}
+@media all and (min-width:800px) {
+	footer li {
+		display: inline;
+	}
+
+	/* 页脚竖线 */
+	footer li:before {
+		margin-right: 0.5em;
+		content: '|';
+	}
+	footer li:first-child:before {
+		content: ' ';
+	}
 }
 /*brand高度*/
 .navbar-brand{
