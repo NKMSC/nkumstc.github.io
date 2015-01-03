@@ -1,4 +1,5 @@
 http://nkumstc.cn/
+http://print.nkumstc.cn/
 http://nkumstc.cn/test/
 http://nkumstc.cn/test/2013_1.html
 http://nkumstc.cn/test/2013_2.html
